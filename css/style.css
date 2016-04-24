@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-size: 14px;
     line-height: 24px;
@@ -10,8 +14,128 @@ body {
 h1 {
     font-size: 30px;
     line-height: 42px;
+    margin-left: 120px;
+    margin-bottom: 30px;
 }
  h2 {
      font-size: 24px;
      line-height: 30px;
  }
+.clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-header {
+    background-color: #000;
+    color: #fff;
+    padding: 0 10px;
+}
+.logo {
+    margin-left: 120px;
+    width: 140px;
+    float: left;
+}
+.navigation {
+    width: 620px;
+    float: left;
+}
+.log-in {
+    width: 140px;
+    float: right;
+    margin-right: 120px;
+}
+main {
+    padding: 0 10px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.breadcrumbs {
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+.content-left {
+    width: 220px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+.content-right {
+    width: 700px;
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+.content-group {
+    margin-bottom: 20px;
+}
+.content-item {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+.content-item:last-child {
+    margin-right: 0;
+}
+.gallery-item {
+    width: 460px;
+    float:left;
+    margin-right: 90px;
+    margin-left: 120px;
+}
+.gallery-foto {
+    margin-bottom: 20px;
+}
+.gallery-preview {
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+}
+.gallery-preview:last-child {
+    margin-right: 0;
+}
+.description {
+    width: 390px;
+    float: right;
+    margin-right: 120px;
+}
+.part-number,
+.description-base {
+    margin-bottom: 40px;
+}
+.part-number span:first-child {
+    float: left;
+}
+.part-number span:last-child {
+    float: right;
+}
+ .price-buy {
+    margin-bottom: 60px;
+}
+.main-footer {
+    margin-top: 0px;
+    padding: 0 10px;
+    background-color: #000;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.contacts {
+    width: 320px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.social {
+    width: 140px;
+    float: left;
+}
+.copyright {
+    width: 140px;
+    float: right;
+    margin-right: 120px;
+}
