@@ -33,7 +33,7 @@ h1 {
 .main-header {
     background-color: #000;
     color: #fff;
-    padding: 0 10px;
+    padding: 25px 10px;
 }
 .logo {
     margin-left: 120px;
@@ -44,12 +44,19 @@ h1 {
     width: 620px;
     float: left;
 }
+ .navigation  li,
+ .breadcrumbs li {
+    display: inline-block;
+    padding-right: 40px;
+}
 .log-in {
     width: 140px;
     float: right;
     margin-right: 120px;
 }
 main {
+    width: 1200px;
+    margin: 0 auto;
     padding: 0 10px;
     padding-top: 60px;
     padding-bottom: 50px;
@@ -63,6 +70,16 @@ main {
     float: left;
     margin-left: 120px;
     margin-right: 20px;
+}
+.filter {
+    margin-bottom: 50px;
+}
+.filter h2{
+    margin-bottom: 35px;
+}
+.filter label {
+    display: block;
+    margin-bottom: 20px;
 }
 .content-right {
     width: 700px;
@@ -104,7 +121,8 @@ main {
     margin-right: 120px;
 }
 .part-number,
-.description-base {
+.description-base,
+.description-composition h2 {
     margin-bottom: 40px;
 }
 .part-number span:first-child {
